@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+header > a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: .8;
+}
+
+a:active {
+    opacity: 1;
+}
+
+
+.header-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    padding: 13px 29px;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    opacity: .8;
+}
+
+.header-button:active {
+    opacity: 1;
+}
+
+main {
+    display: inline-flex;
+}
+
+img {
+    margin-top: 150px;
+}
+
+div > h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    margin: 250px 0 0 85px;
+}
+
+div > p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    width: 493px;
+    height: 99px;
+    margin: 47px 0 0 85px;
+}
+
+.main-button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    height: 27px;
+    color: #6FBF44;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 55px 0 0 85px;
+}
+
+.main-button:hover {
+    opacity: .8;
+}
+
+.main-button:active {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+    header > a {
+        display: none;
+    }
+
+    .header-button {
+        position: absolute;
+        right: 10%;
+    }
+
+    main {
+        display: block;
+    }
+
+    div > h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        width: 278px;
+        height: 60px;
+        margin: 124px auto 0 auto;
+    }
+
+    div > p {
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        width: 304px;
+        height: 165px;
+        margin: 29px auto;
+    }
+
+    .main-button {
+        display: flex;
+        width: 112px;
+        height: 27px;
+        font-size: 18px;
+        line-height: 27px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        color: red;
+    }
+
+    img {
+        width: 70%;
+        margin: 100px 0 0 10px;
+        justify-content: center;
+    }
+}
